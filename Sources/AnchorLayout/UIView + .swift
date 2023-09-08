@@ -14,9 +14,13 @@ extension UIView {
         view.translatesAutoresizingMaskIntoConstraints = tamic
     }
     
-    func insertSubview(_ view: UIView, at index: Int, tamic: Bool) {
+    public func insertSubview(_ view: UIView, at index: Int, tamic: Bool) {
         insertSubview(view, at: index)
         view.translatesAutoresizingMaskIntoConstraints = tamic
+    }
+    
+    public func removeAllSubviews() {
+        subviews.forEach { $0.removeFromSuperview() }
     }
     
     public enum ConstraintRelation {
