@@ -104,21 +104,3 @@ extension UIView {
         removeConstraints([attribute])
     }
 }
-
-extension UIView {
-    public var edgeAnchors: NSLayoutEdgeAnchors {
-        NSLayoutEdgeAnchors(
-            topAnchor: topAnchor,
-            leadingAnchor: leadingAnchor,
-            trailingAnchor: trailingAnchor,
-            bottomAnchor: bottomAnchor
-        )
-    }
-    
-    public var centerAnchor: NSLayoutCenterAnchor {
-        NSLayoutCenterAnchor(
-            centerXAnchor: centerXAnchor,
-            centerYAnchor: centerYAnchor
-        )
-    }
-}
