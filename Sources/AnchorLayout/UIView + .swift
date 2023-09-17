@@ -47,6 +47,14 @@ extension UIView {
         }
     }
     
+    public var hasWidthConstraint: Bool {
+        !constraints(.width).isEmpty
+    }
+    
+    public var hasHeightConstraint: Bool {
+        !constraints(.height).isEmpty
+    }
+    
     public func constraints(_ attribute: DimensionAttribute) -> [NSLayoutConstraint] {
         constraints.filter {
             ($0.firstItem  as? NSObject) == self &&
