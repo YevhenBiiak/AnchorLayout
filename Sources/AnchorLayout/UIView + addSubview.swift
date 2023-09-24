@@ -1,6 +1,5 @@
 //
 //  UIView + addSubview.swift
-//  InvoiceMaker
 //
 //  Created by Yevhen Biiak on 10.06.2023.
 //

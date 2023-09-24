@@ -1,6 +1,5 @@
 //
-//  File.swift
-//  
+//  NSLayoutEdgeAnchors.swift
 //
 //  Created by Yevhen Biiak on 09.09.2023.
 //

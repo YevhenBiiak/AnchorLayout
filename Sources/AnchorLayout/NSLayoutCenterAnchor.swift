@@ -1,6 +1,5 @@
 //
-//  File.swift
-//  
+//  NSLayoutCenterAnchor.swift
 //
 //  Created by Yevhen Biiak on 09.09.2023.
 //

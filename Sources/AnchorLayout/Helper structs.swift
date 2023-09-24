@@ -1,6 +1,5 @@
 //
-//  Helpers.swift
-//  Playground1
+//  Helper structs.swift
 //
 //  Created by Yevhen Biiak on 27.08.2023.
 //
